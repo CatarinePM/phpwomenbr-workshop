@@ -1,0 +1,150 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8aeca8319a58ba5dfd4dce1f308fc41b",
+    "packages": [
+        {
+            "name": "pds/skeleton",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-pds/skeleton.git",
+                "reference": "95e476e5d629eadacbd721c5a9553e537514a231"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-pds/skeleton/zipball/95e476e5d629eadacbd721c5a9553e537514a231",
+                "reference": "95e476e5d629eadacbd721c5a9553e537514a231",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/pds-skeleton"
+            ],
+            "type": "standard",
+            "autoload": {
+                "psr-4": {
+                    "Pds\\Skeleton\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "CC-BY-SA-4.0"
+            ],
+            "description": "Standard for PHP package skeletons.",
+            "homepage": "https://github.com/php-pds/skeleton",
+            "time": "2017-01-25T23:30:41+00:00"
+        },
+        {
+            "name": "respect/rest",
+            "version": "0.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Respect/Rest.git",
+                "reference": "4f60aa199623d738a3391ca1e80bafb754bc9308"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Respect/Rest/zipball/4f60aa199623d738a3391ca1e80bafb754bc9308",
+                "reference": "4f60aa199623d738a3391ca1e80bafb754bc9308",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Respect\\": "library/Respect"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD Style"
+            ],
+            "authors": [
+                {
+                    "name": "Alexandre Gaigalas",
+                    "email": "alexandre@gaigalas.net"
+                },
+                {
+                    "name": "Respect/Data Contributors",
+                    "homepage": "https://github.com/Respect/Data/graphs/contributors"
+                }
+            ],
+            "description": "Thin controller for RESTful applications",
+            "homepage": "http://respect.li/",
+            "time": "2015-01-12T09:55:16+00:00"
+        },
+        {
+            "name": "symfony/dotenv",
+            "version": "v4.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/dotenv.git",
+                "reference": "afb6923923e22874dac20bd042167ccb8df1d158"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/dotenv/zipball/afb6923923e22874dac20bd042167ccb8df1d158",
+                "reference": "afb6923923e22874dac20bd042167ccb8df1d158",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "require-dev": {
+                "symfony/process": "~3.4|~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Dotenv\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Registers environment variables from a .env file",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2018-01-03T17:15:19+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
