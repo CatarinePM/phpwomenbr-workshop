@@ -2,18 +2,10 @@
 namespace App\Controller;
 
 use App\Repository\Task as Repository;
-use Respect\Rest\Routable;
 
-class Task implements Routable
+class API extends Base
 {
-    protected $config;
-
-    public function __construct(array $config)
-    {
-        $this->config = $config;
-    }
-
-    public function get($id = false): array
+    public function get(): array
     {
         $repository = new Repository($this->config);
         $tasks = $repository->find();

@@ -19,9 +19,9 @@ class Task implements \JsonSerializable
     public const STATUS_DONE = 0;
     public const STATUS_ARCHIVED = -1;
 
-    public function getId(): ?int
+    public function getId(): int
     {
-        return $this->id;
+        return (int) $this->id;
     }
 
     public function setId(int $id): self
