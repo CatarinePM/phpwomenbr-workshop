@@ -5,4 +5,10 @@
         'password' => getenv('DB_PASSWORD') ?: null,
         'options' => [],
     ],
+    'APP' => [
+        'path' => [
+            'root' => __DIR__.'/../',
+            'template' => __DIR__.'/../resources/templates/'
+        ]
+    ]
 ];
